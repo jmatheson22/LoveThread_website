@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join me on LoveThread</title>
+    <meta property="og:title" content="Join me on LoveThread" />
+    <meta property="og:description" content="Something just for us." />
+    <meta property="og:image" content="https://lovethread.app/og-image.png" />
+    <meta property="og:url" content="https://lovethread.app/connect" />
+    <meta property="og:type" content="website" />
+</head>
+<body>
+    <script>
+        const code = new URLSearchParams(window.location.search).get('code');
+        if (code) window.location.href = 'lovethread://connect?code=' + code;
+        setTimeout(() => {
+            document.getElementById('fallback').style.display = 'block';
+        }, 1500);
+    </script>
+    <p id="fallback" style="display:none; font-family:sans-serif; text-align:center; margin-top:40px">
+        <a href="https://apps.apple.com/app/idYOUR_APP_STORE_ID">Download LoveThread</a>
+    </p>
+</body>
+</html>
