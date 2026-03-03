@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["YOUR_TEAM_ID.com.jmm.LoveThread"],
+        "appIDs": ["6SFJ4D7GZ7.com.jmm.LoveThread"],
         "components": [{ "/": "/connect*" }]
       }
     ]
