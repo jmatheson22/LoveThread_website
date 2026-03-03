@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/jamesmatheson/dev/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/jamesmatheson/dev/LoveThread/LoveThread/Assets.xcassets/AppIcon.appiconset"
+    ]
+  }
+}
