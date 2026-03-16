@@ -246,6 +246,17 @@
             max-width: 760px;
         }
 
+        .hero-app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            object-fit: cover;
+            box-shadow: 0 12px 48px rgba(46, 31, 26, 0.18), 0 2px 8px rgba(46, 31, 26, 0.10);
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: heroFadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards;
+        }
+
         .hero-eyebrow {
             display: inline-flex;
             align-items: center;
@@ -1186,6 +1197,7 @@
         </div>
 
         <div class="hero-inner">
+            <img src="/og-image.png" alt="LoveThread app icon" class="hero-app-icon">
             <p class="hero-eyebrow" aria-hidden="true">A private app for couples</p>
 
             <h1 id="hero-headline">
